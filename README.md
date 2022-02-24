@@ -56,3 +56,17 @@ You can use the cdk bootstrap command to install the bootstrap stack into an env
 run `cdk bootstrap` 
 
 Info: You might see an Access Denied error at this step, if the AWS CLI has not been set up correctly or if the active AWS profile does not have the cloudformation:CreateChangeSet permission.
+
+Let’s deploy
+
+Use cdk deploy to deploy a CDK app.
+
+### The CloudFormation Console
+CDK apps are deployed through AWS CloudFormation. Each CDK stack maps 1:1 with CloudFormation stack.
+
+This means that you can use the AWS CloudFormation console in order to manage your stacks.
+
+If you select CdkWorkshopStack and open the Resources tab, you will see the physical identities of our resources.
+
+
+
